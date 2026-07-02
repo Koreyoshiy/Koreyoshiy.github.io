@@ -1,0 +1,128 @@
+menu:
+  首页:
+    link: /
+    icon: home
+  归档:
+    link: /archives/
+    icon: archive
+  友链:
+    link: /link/
+    icon: link
+  更多:
+    icon: menu
+    item:
+      分类:
+        link: /categories/
+        icon: folder
+      标签:
+        link: /tags/
+        icon: tag
+      关于我:
+        link: /myself/
+        icon: user
+      留言板:
+        link: /messageboard/
+        icon: message-circle
+
+nav:
+  enable: false
+
+favicon: /img/favicon.ico
+
+background:
+  style: default
+
+profile:
+  role: 持续学习的开发者
+  bio: 记录技术学习、生活思考与成长轨迹，在缓慢前行中寻找自己的答案。
+  avatar: /img/avatar.jpg
+  avatar_shape: square
+  site_info:
+    posts: /archives/
+    categories: /categories/
+    tags: /tags/
+  social:
+    GitHub: https://github.com/Koreyoshiy
+  rss:
+    enable: true
+    path: /atom.xml
+
+welcome:
+  label: 今日份记录
+  title: 人生缓缓，自有答案
+  text: 写下技术，也收藏生活里值得记住的片段。
+  cta_text: 查看文章
+  cta_link: /archives/
+
+home_hero:
+  enable: false
+
+excerpt_length: 120
+random_posts: 5
+random_posts_pool: 50
+latest_posts:
+  enable: false
+  limit: 5
+related_posts: 3
+
+post_top_img:
+  mode:
+
+article:
+  strong_accent: true
+
+search:
+  limit: 100
+
+tags:
+  style: tape
+
+links:
+  style: tape
+
+buttons:
+  style: tape
+
+# 文章达到 3 至 4 篇后，再在这里加入 slug 启用首页精选轮播。
+featured:
+featured_autoplay: 0
+featured_image_zigzag: true
+
+# 与头像背景相呼应的浅绿色主色，可在页面右上角临时切换成粉色。
+color: green
+
+tape:
+  enable: true
+
+footer:
+  left: '© {year} By {name}'
+  powered:
+    enable: true
+    prefix: Powered by Theme
+    name: FlatPaper
+    link: https://github.com/Homulilly/hexo-theme-flatpaper
+  links:
+    -
+      - name: GitHub
+        link: https://github.com/Koreyoshiy
+      - name: RSS
+        link: /atom.xml
+
+note:
+  style: sticky
+  icons: true
+
+code:
+  theme: simple
+
+comments:
+
+fancybox:
+  enable: true
+
+google_fonts:
+  enable: false
+
+inject:
+  head:
+  bottom:

@@ -1,0 +1,3 @@
+[submodule "themes/flatpaper"]
+	path = themes/flatpaper
+	url = https://github.com/Homulilly/hexo-theme-flatpaper.git

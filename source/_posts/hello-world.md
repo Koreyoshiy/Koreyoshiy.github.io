@@ -2,6 +2,12 @@
 title: Hello World
 date: 2025-10-29 19:46:22
 updated: 2025-10-29 19:46:22
+categories:
+  - 建站记录
+tags:
+  - Hexo
+  - GitHub Pages
+  - FlatPaper
 description: Welcome to Hexo！这是博客创建时的第一篇文章。
 abbrlink: 4a17b156
 permalink: post/4a17b156.html

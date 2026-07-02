@@ -64,7 +64,7 @@ include:
 exclude:
 ignore:
 
-theme: butterfly
+theme: flatpaper
 
 feed:
   type: atom

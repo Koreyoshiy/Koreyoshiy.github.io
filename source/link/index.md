@@ -1,7 +1,7 @@
 ---
 title: 友情链接
 date: 2025-10-29 20:00:00
-type: link
+type: links
 comments: false
 ---
 
