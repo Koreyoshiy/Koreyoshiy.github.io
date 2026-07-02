@@ -1,0 +1,130 @@
+favicon: /img/favicon.ico
+avatar:
+  img: /img/butterfly-icon.png
+  effect: false
+
+index_img: /img/backG.png
+default_top_img: /img/backG.png
+archive_img: /img/tag.jpg
+tag_img: /img/tag.jpg
+category_img: /img/tag.jpg
+background: /img/backG.png
+error_404:
+  enable: true
+  subtitle: 页面没有找到
+  background: /img/404.jpg
+
+menu:
+  首页: / || fas fa-home
+  文章||fas fa-archive:
+    归档: /archives/ || fas fa-archive
+    标签: /tags/ || fas fa-tags
+    分类: /categories/ || fas fa-folder-open
+    时间轴: /timeline/ || fas fa-stream
+  关于||fas fa-user:
+    关于本站: /about/ || fas fa-circle-info
+    关于我: /myself/ || fas fa-address-card
+    友情链接: /link/ || fas fa-link
+    留言板: /messageboard/ || fas fa-comments
+
+social:
+  fab fa-github: https://github.com/Koreyoshiy || GitHub
+
+subtitle:
+  enable: true
+  effect: true
+  loop: true
+  source: false
+  sub:
+    - 人生缓缓，自有答案
+    - 记录技术，也记录生活
+
+index_layout: 3
+index_post_content:
+  method: 3
+  length: 300
+aside:
+  enable: true
+  hide: false
+  button: true
+  mobile: true
+  position: right
+  card_author:
+    enable: true
+    description: 努力成为一名优秀的码农中……
+    button:
+      enable: true
+      icon: fab fa-github
+      text: Follow Me
+      link: https://github.com/Koreyoshiy
+  card_announcement:
+    enable: true
+    content: 欢迎来到我的博客。
+  card_recent_post:
+    enable: true
+    limit: 5
+    sort: date
+  card_categories:
+    enable: true
+    limit: 8
+    expand: none
+    sort_order:
+  card_tags:
+    enable: true
+    limit: 20
+    color: false
+    orderby: random
+    order: 1
+    sort_order:
+  card_archives:
+    enable: true
+    type: monthly
+    format: MMMM YYYY
+    order: -1
+    limit: 8
+
+local_search:
+  enable: true
+  preload: false
+  CDN:
+
+post_copyright:
+  enable: true
+  decode: false
+  author_href: https://github.com/Koreyoshiy
+  license: CC BY-NC-SA 4.0
+  license_url: https://creativecommons.org/licenses/by-nc-sa/4.0/
+
+footer:
+  owner:
+    enable: true
+    since: 2025
+  custom_text: 人生缓缓，自有答案
+  copyright: true
+
+wordcount:
+  enable: false
+  post_wordcount: false
+  min2read: false
+  total_wordcount: false
+
+busuanzi:
+  site_uv: true
+  site_pv: true
+  page_pv: true
+
+darkmode:
+  enable: true
+  button: true
+  autoChangeMode: 1
+
+display_mode: light
+beautify:
+  enable: true
+  field: site
+  title-prefix-icon: '\f0c1'
+  title-prefix-icon-color: '#F47466'
+
+inject:
+  head:
+  bottom:
