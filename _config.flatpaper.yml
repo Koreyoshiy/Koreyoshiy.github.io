@@ -26,6 +26,9 @@ menu:
       留言板:
         link: /messageboard/
         icon: message-circle
+      面试题库:
+        link: /interviews/
+        icon: notebook-tabs
 
 nav:
   enable: false
@@ -120,6 +123,17 @@ code:
 
 comments:
 
+# 评论系统接入位。部署 Twikoo 后，把 comments 改为 twikoo，并填写 HTTPS envId。
+twikoo:
+  envId:
+
+# 访问统计接入位。创建 Umami 网站后填写 host 和 website_id，再改为 true。
+umami:
+  enable: false
+  host:
+  website_id:
+  domains: koreyoshiy.github.io
+
 fancybox:
   enable: true
 
@@ -129,4 +143,6 @@ google_fonts:
 inject:
   head:
     - <link rel="stylesheet" href="/css/internship-board.css">
+    - <link rel="stylesheet" href="/css/interview-bank.css">
   bottom:
+    - <script src="/js/interview-bank.js" defer></script>
