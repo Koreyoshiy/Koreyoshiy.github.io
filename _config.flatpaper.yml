@@ -5,6 +5,9 @@ menu:
   归档:
     link: /archives/
     icon: archive
+  找实习:
+    link: /categories/找实习/
+    icon: briefcase-business
   友链:
     link: /link/
     icon: link
