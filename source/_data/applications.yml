@@ -1,0 +1,14 @@
+# 求职看板数据。只填写适合公开的信息，不要记录姓名、电话、邮箱或聊天内容。
+#
+# 新增岗位示例：
+# applications:
+#   - company: 示例公司
+#     role: 后端开发实习生
+#     status: 已投递
+#     location: 上海
+#     date: 2026-07-03
+#     link: https://example.com/job
+#     note: 官网投递
+#
+# status 只能使用：已收藏、已投递、笔试、面试、Offer、已结束
+applications: []

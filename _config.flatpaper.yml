@@ -6,7 +6,7 @@ menu:
     link: /archives/
     icon: archive
   找实习:
-    link: /categories/找实习/
+    link: /internship/
     icon: briefcase-business
   友链:
     link: /link/
@@ -128,4 +128,5 @@ google_fonts:
 
 inject:
   head:
+    - <link rel="stylesheet" href="/css/internship-board.css">
   bottom:
